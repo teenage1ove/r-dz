@@ -1,5 +1,7 @@
 import { Iitem } from './interfaces/item.interface'
 
+
+
 export function ShopItemFunc({ item }: { item: Iitem }) {
 	return (
 		<>

@@ -1,7 +1,9 @@
-import  {ShopItemFunc}  from './ShopItemFunc'
+import { Iitem } from './interfaces/item.interface'
+import ShopItemFunc from './ShopItemFunc'
+
 
 export function App() {
-  const item = {
+  const item: Iitem = {
     brand: 'Tiger of Sweden',
     title: 'Leonard coat',
     description: 'Minimalistic coat in cotton-blend',
